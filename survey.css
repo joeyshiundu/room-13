@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("image.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    background-color: rgba(57, 179, 250, 0.7);
+    background-blend-mode: multiply;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading {
+   text-align: center; 
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head {
+    font-size: 1.8em;
+    text-align: center;
+}
+#subheading{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    color:white;
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color:rgba(0, 0, 0, 0.834);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    height: 70%;
+}
+form .box{
+    width: 98.5%;
+    height: 1.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.75%;
+    height: 1.7em;
+    margin: auto;
+    bottom:10px;
+    border-radius: 5px;
+}
+#option2 select{
+    width: 98.75%;
+    height: 1.7em;
+    margin: auto;
+    position:relative ;
+    top:10px;
+    border-radius:5px ;
+}
+#head1{
+color: aliceblue;
+margin: auto;
+}
+#larger {
+    color: aliceblue;
+    margin: auto;
+}
+#content2{
+    margin-top: 10px;
+}
+#content2 textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: greenyellow;
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#textarea ::placeholder{
+    font-size: 1.4em;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    width: 70%;
+    font-weight: 700;
+}
+input.larger{
+    width: 20px;
+    height: 20px;
+}
